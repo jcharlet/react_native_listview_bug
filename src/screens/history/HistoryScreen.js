@@ -91,6 +91,7 @@ export default class HistoryScreen extends Component {
                             enableEmptySections
                             dataSource={this.state.dataSource}
                             renderRow={this.renderRow.bind(this)}
+                            removeClippedSubviews={false}
                         />
                     </View>
                 </View>
