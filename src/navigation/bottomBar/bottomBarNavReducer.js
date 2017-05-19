@@ -6,7 +6,7 @@ import {
 import {NAV_HACK_DETAILS, NAV_HISTORY} from "../../actions/actionTypes";
 
 const initialNavState = {
-    index: 0,
+    index: 1,
     routes: [
         { key: 'InitB', routeName: NAV_HACK_DETAILS },
         { key: 'InitC', routeName: NAV_HISTORY },
